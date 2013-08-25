@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>MechoSystems Parts Database</title>
+<title>qrtrak</title>
 <style>td{border:1px solid black; padding:3px;}</style>
 </head>
 <body>
