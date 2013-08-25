@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>MechoSystems Parts Database</title>
+</head>
+<body>
+<!--
+<HR>
+<h1>Section 1</h1>-->  Search for a part by serial number:<br><br>
+<form id="Search" name="search" method="get" action="view.php">
+<input name="part" type="text" id="part" />
+<input type="submit"  value="Search for part" />
+</form>
+<br>
+<!--  Manual upload ########################################################
+<HR>
+<h1>Section 2</h1>
+ Add a new part into the database (engineering ONLY resource, possibly non-web resource)<br><br>
+<form id="form1" name="form1" method="post" action="add.php?action=insertdb">
+<table width="650"  cellspacing="2" cellpadding="4">
+<tr>
+<td width="82"><strong>Title:</strong></td>
+<td width="540"><input name="ptname" type="text" id="ptname" /></td>
+</tr>
+<tr>
+<td><strong>Serial Number: </strong></td>
+<td><input name="ptsn" type="text" id="ptsn" /></td>
+</tr>
+<tr>
+<td><p><strong>Category:</strong></p></td>
+<td><select name="ptcat" id="ptcat">
+<option value="1">Type 1</option>
+<option value="2">Type 2</option>
+<option value="3">Type 2 A</option>
+<option value="4">Other</option>
+</select></td>
+</tr>
+<tr>
+<td><strong>Description:</strong></td>
+<td><textarea name="ptdesc" cols="50" rows="15" id="ptdesc"></textarea></td>
+</tr>
+</table> 
+<p>
+<input type="submit" name="addptBt" id="addptBt" value="Add Part" />
+</p>
+</form>
+<HR>
+<h1>Section 3</h1>
+###################################################################################-->
+<a href="/browse.php">Browse database</a>
+</body>
+</html>
