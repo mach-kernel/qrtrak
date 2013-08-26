@@ -14,9 +14,9 @@ A working copy filled with actual data can be found at [MechoProducts](http://me
 You'll need:
 
 * A web server that's configured for:
-** HTTP 
-** PHP/FastCGI
-** MySQL
+  * HTTP 
+  * PHP/FastCGI
+  * MySQL
 
 ### How-to
 
