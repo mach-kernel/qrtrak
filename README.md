@@ -5,8 +5,6 @@ qrtrak
 
 This is a QR-Code based parts inventory system. It uses the [Google Chart API](https://developers.google.com/chart/) to generate QR codes. This was made as a side project for [MechoSystems Inc](http://mechosystems.com) during my internship there. 
 
-A working copy filled with actual data can be found at [MechoProducts](http://mechoproducts.com), ironically lacking any copyright claim to me, the original author. 
-
 ## Cool! How do I use it?
 
 ### Requirements
